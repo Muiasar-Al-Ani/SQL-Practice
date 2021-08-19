@@ -2,3 +2,7 @@
 DROP DATABASE IF EXISTS sample_db;
 
 CREATE DATABASE books_db;
+
+USE DATABASE books_db;
+
+SELECT DATABASE();
